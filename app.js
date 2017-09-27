@@ -11,7 +11,7 @@ Server.route({
     path: '/',
     handler: function(request, reply) {
         reply({
-            message: "Hello",
+            message: "Hello000000000000000000000000000000",
             time: Date.now(),
             serverId: serverId
         }).code(200)
