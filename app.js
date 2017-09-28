@@ -4,7 +4,7 @@ const Hapi = require('hapi')
 const Server = new Hapi.Server();
 const serverId = uuidv4()
 
-Server.connection({ port: (process.env.PORT || 3010), host: 'localhost'})
+Server.connection({ port: (process.env.PORT || 3010), host: '0.0.0.0'})
 
 Server.route({
     method: "GET",
